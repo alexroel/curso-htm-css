@@ -1,15 +1,15 @@
 # Introducción a CSS
 
-1.[¿Qué es CSS?](#¿qué-es-css)
-2.[Mis primeros estilos](#mis-primeros-estilos)
-3.[Selectores de elementos](#selectores-de-elementos)
-4.[Modelo de caja](#modelo-de-caja)
-5.[Tipos de elementos](#tipos-de-elementos)
-6.[Tipos de display](#tipos-de-display)
-7.[Tipografía](#tipografía)
-8.[Colores y fondos](#colores-y-fondos)
-9.[Medidas](#medidas)
-10[Posicionamiento](#posicionamiento)
+1. [¿Qué es CSS?](#¿qué-es-css)
+2. [Mis primeros estilos](#mis-primeros-estilos)
+3. [Selectores de elementos](#selectores-de-elementos)
+4. [Modelo de caja](#modelo-de-caja)
+5. [Tipos de elementos](#tipos-de-elementos)
+6. [Tipos de display](#tipos-de-display)
+7. [Tipografía](#tipografía)
+8. [Colores y fondos](#colores-y-fondos)
+9. [Medidas](#medidas)
+10. [Posicionamiento](#posicionamiento)
 
 ---
 ## ¿Qué es CSS?

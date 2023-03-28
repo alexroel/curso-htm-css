@@ -3,10 +3,10 @@
 1. [¿Qué es HTML?](#¿qué-es-html)
 2. [Sintaxis y etiquetas](#sintaxis-y-etiquetas)
 3. [Estructura básica de un documento HTML](#estructura-básica-de-un-documento-html)
-4. [Herramientas para desarrollar](#herramientas-para-desarrollar)
-5. [Mi primer página](#mi-primer-página) 
-6. [Etiquetas de texto](#etiquetas-de-texto)
-7. [Ejemplo sobre etiquetas de texto](#ejemplo-sobre-etiquetas-de-texto)
+4. [Mi primer página](#mi-primer-página) 
+5. [Etiquetas de texto](#etiquetas-de-texto)
+6. [Ejemplo sobre etiquetas de texto](#ejemplo-sobre-etiquetas-de-texto)
+7. [Herramientas para desarrollar](#herramientas-para-desarrollar)
 
 ---
 ## ¿Qué es HTML?
@@ -114,10 +114,6 @@ El código HTML proporcionado es la estructura básica de una página web y cons
 - `<p>Este es mi primer párrafo de ejemplo.</p>`: Crea un párrafo que dice "Este es mi primer párrafo de ejemplo".
 
 En resumen, este código define la estructura básica de una página web, establece el título de la página, define el idioma predeterminado y el conjunto de caracteres utilizado, así como el contenido visible de la página.
-
----
-## Herramientas para desarrollar
-Consola de desarrollador: Es una herramienta integrada en los navegadores web que permite depurar y analizar problemas en el código de una página web, visualizar y manipular el DOM, probar código JavaScript y realizar pruebas de rendimiento, entre otras funciones.
 
 ---
 ## Mi primer página
@@ -261,6 +257,10 @@ En este ejemplo utlilizaremos la mayoria de las etiquetas de texto.
 
 </html>
 ~~~
+
+---
+## Herramientas para desarrollar
+Consola de desarrollador: Es una herramienta integrada en los navegadores web que permite depurar y analizar problemas en el código de una página web, visualizar y manipular el DOM, probar código JavaScript y realizar pruebas de rendimiento, entre otras funciones.
 
 
 

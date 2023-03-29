@@ -252,7 +252,7 @@ Cada tipo de elemento en HTML sigue el modelo de caja en CSS, pero algunos eleme
     }
     ~~~
     
-    En este ejemplo, creamos un div con la clase "caja" y dentro de ella, un encabezado de nivel 2 (<h2>) y un párrafo (<p>). En CSS, aplicamos un ancho de 400 píxeles, un alto de 200 píxeles, un relleno de 20 píxeles y un borde sólido de 2 píxeles en un tono gris oscuro. También le dimos un color de fondo gris claro.
+    En este ejemplo, creamos un div con la clase "caja" y dentro de ella, un encabezado de nivel 2 (`<h2>`) y un párrafo (`<p>`). En CSS, aplicamos un ancho de 400 píxeles, un alto de 200 píxeles, un relleno de 20 píxeles y un borde sólido de 2 píxeles en un tono gris oscuro. También le dimos un color de fondo gris claro.
 
     Este div se ajusta automáticamente al ancho del contenedor que lo contiene y tiene un margen superior e inferior por defecto. El modelo de caja para este elemento de bloque se ve así:
 

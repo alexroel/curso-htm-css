@@ -1,58 +1,76 @@
-# Curso completo de HTML
+# Curso de HTML y CSS
 
-## Temario del curso 
+¡Bienvenido al repositorio del curso de **HTML y CSS**! Este curso está diseñado para llevarte desde los conceptos básicos hasta técnicas más avanzadas de desarrollo web, a través de proyectos prácticos que te permitirán aplicar lo aprendido.
 
-Aquí te presento un posible temario para un curso completo de HTML:
+## Contenidos del Curso
 
+El curso abarca los siguientes temas principales:
 
-- Sección 1: Primeros pasos en la Web
-    1. Introducción a la web
-    2. ¿Qué necesitas para crear una página web?
-    3. Instalar herramienta de desarrollo 
-    4. Manejo de archivo 
+1. **Primeros pasos en la Web**  
+   - Introducción a la Web y su funcionamiento.
+   - Instalación de herramientas necesarias.
+   - Creación de tu primera página web.
 
-- Sección 1: Introducción a HTML
-    1. ¿Qué es HTML?
-    2. Sintaxis y etiquetas
-    3. Estructura básica de un documento HTML
-    4. Herramientas para desarrollar
-    5. Mi primer página 
-    6. Etiquetas de texto
-    7. Ejemplo sobre etiquetas de texto
+2. **Introducción a HTML**  
+   - Estructura y sintaxis básica de HTML.
+   - Uso de etiquetas comunes, como encabezados, párrafos, listas y enlaces.
+   - Incorporación de imágenes y elementos multimedia.
 
-- Sección 3: Estructura de una página
-    1. Estructura de una página
-    2. Contenedores de elementos 
-    3. Etiquetas de enlaces
-    4. Etiquetas de imágenes
-    5. Listas 
-    6. Tablas 
-    7. Elementos de citas
+3. **Estructura de una página**  
+   - Comprensión de la semántica en HTML.
+   - Uso de contenedores y estructuras de layout.
+   - Creación de formularios y validaciones básicas.
 
-- Sección 4: Formularios y sus etiquetas
-    - Introducción a formulario 
-    - 
+4. **Etiquetas multimedia**  
+   - Integración de imágenes, videos y audio en tus páginas web.
+   - Uso de etiquetas multimedia avanzadas para mejorar la experiencia del usuario.
 
-- Seción 4: Estilos y diseño con CSS
-    - Introducción a CSS
-    - Selectores CSS
-    - Propiedades CSS
-    - Estilos en línea
-    - Hojas de estilo externas
-    - Diseño de páginas web con CSS
+5. **Introducción a CSS**  
+   - Aplicación de estilos básicos.
+   - Selectores, propiedades y unidades de medida.
+   - Modelo de caja y manejo de colores.
 
-- Módulo 5: Optimización y accesibilidad de una página HTML
-    - Optimización de código HTML
-    - Métodos para mejorar la accesibilidad de una página web
-    - Validación y verificación de una página HTML
-    - Herramientas para medir la velocidad de carga de una página web
+6. **Posicionamiento de elementos**  
+   - Uso de `float`, `position` y `z-index`.
+   - Técnicas para el control del desbordamiento y el orden de apilamiento.
+   - Flujo de escritura en CSS.
 
-- Módulo 6: Avanzado
+7. **CSS Flexbox**  
+   - Conceptos y propiedades clave de Flexbox.
+   - Creación de layouts flexibles y adaptables.
+   - Proyecto práctico: Clon de Yahoo.
 
-    - Multimedia y HTML5
-    - APIs de HTML5
-    - Integración de HTML con otros lenguajes
-    - Integración con bases de datos
-    - Frameworks de HTML y herramientas de desarrollo web
+8. **Introducción a Grid**  
+   - Diseño avanzado de layouts con CSS Grid.
+   - Creación de estructuras complejas y manejables.
+   - Proyecto práctico: Diseño de una cafetería.
 
-Este temario puede ser adaptado y personalizado según las necesidades y objetivos específicos del curso y del público objetivo.
+9. **Responsive Web Design (RWD)**  
+   - Principios de diseño responsivo.
+   - Uso de `media queries` y diseño adaptable a diferentes dispositivos.
+   - Proyecto práctico: Hero responsivo.
+
+10. **Fundamentos de BEM**  
+    - Aplicación de la metodología BEM en la organización de tus estilos CSS.
+    - Mejora de la mantenibilidad y escalabilidad de tu código.
+
+## Proyectos
+
+Este repositorio contiene todo el código fuente de los proyectos realizados durante el curso. Cada proyecto se encuentra en la carpeta `projects`. Puedes acceder a los proyectos a través de los siguientes enlaces:
+
+- **[Mi Primera Web](./projects/mi-web/):** `projects/mi-web`
+- **[Clon de Google](./projects/google-clone/):** `projects/google-clone`
+- **[Clon de Yahoo](./projects/yahoo-clone/):** `projects/yahoo-clone`
+- **[Portafolio Personal](./projects/portafolio/):** `projects/portafolio`
+- **[Diseño con CSS Grid](./projects/css-grid/):** `projects/css-grid`
+- **[Cafetería](./projects/cafeteria/):** `projects/cafeteria`
+- **[Hero Responsivo](./projects/hero-responsive/):** `project/hero-responsive`
+- **[Landing Page de Logi Pro X](./projects/logi-pro-x/):** `project/logi-pro-x`
+- **[EduPath](./projects/edu-path/):** `projects/edu-path`
+
+## Despliegue en Netlify
+
+Al final del curso, desplegarás tus aplicaciones en Netlify para que estén disponibles en la web. Un ejemplo de un sitio desplegado es: [juan-carlos.netlify.app](https://juan-carlos.netlify.app/).
+
+¡Esperamos que disfrutes aprendiendo y desarrollando tus habilidades en HTML y CSS!
+

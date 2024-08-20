@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web - Eventos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            es genial</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#acerca-de">Acerca de</a></li>
+                <li><a href="evento.html">Eventos</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Regístrate a Nuestro Próximo Evento</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil molestias, doloribus quia eveniet rerum,
+            eligendi, possimus placeat sequi aspernatur provident non eius dolores culpa! Ipsam itaque eius magnam.
+            Ipsum, odit.
+        </p>
+
+        <form action="/index.html" method="post">
+            <fieldset>
+                <legend>Regístrate</legend>
+                <label>Edad:
+                    <input type="number" name="edad" id="edad" required min="18" max="100">
+                </label>
+                <label>Nombre:
+                    <input type="text" name="nombre" id="nombre" required minlength="2" maxlength="20">
+                </label>
+
+                <label>Correo:
+                    <input type="email" name="correo" id="correo" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Genero</legend>
+                <label>Hombre
+                    <input type="radio" name="genero" id="hombre" value="hombre" required>
+                </label>
+                <label>Mujer
+                    <input type="radio" name="genero" id="mujer" value="mujer" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Eventos</legend>
+                <label for="envento">Selecciona el Evento: </label>
+                <select name="envento" id="envento">
+                    <option value="conferencia_tec">Conferencia Tecnológica</option>
+                    <option value="webinar_seo">Webinar sobre SEO</option>
+                    <option value="taller_cloud">Taller sobre Cloud Computing</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ciudades de evento</legend>
+                <label for="ciudad">Ciudad: </label>
+                <input list="ciudades" id="ciudad" name="ciudad" required>
+                <datalist id="ciudades">
+                    <option value="Madrid">
+                    <option value="Barcelona">
+                    <option value="Valencia">
+                    <option value="Sevilla">
+                    <option value="Bilbao">
+                </datalist>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Más Información sobre los Eventos</h2>
+
+        <details open>
+            <summary>Conferencia Tecnológica</summary>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod pariatur velit aspernatur? Iste autem magni aliquid quibusdam atque cum praesentium, facilis accusamus sequi necessitatibus quaerat accusantium consequuntur! Commodi, libero.
+                </p>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Iste autem magni aliquid quibusdam atque cum praesentium</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Iste autem magni aliquid quibusdam atque cum praesentium</li>
+                </ul>
+            </div>            
+        </details>
+
+        <details>
+            <summary>Webinar sobre SEO</summary>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fuga expedita culpa ad repellendus eius fugiat ipsum id debitis. Modi minima eum sed quas, quia ut in laboriosam repellendus expedita.
+            </p>
+        </details>
+
+        <details>
+            <summary>Taller sobre Cloud Computing</summary>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fuga expedita culpa ad repellendus eius fugiat ipsum id debitis. Modi minima eum sed quas, quia ut in laboriosam repellendus expedita.
+            </p>
+        </details>
+    </section>
+</body>
+
+</html>

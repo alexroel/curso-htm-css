@@ -1,0 +1,95 @@
+/*Variables
+============================================*/
+:root{
+    --color-100: #eaecee;
+    --color-200: #d5d8dc;
+    --color-300: #abb2b9;
+    --color-400: #808b96;
+    --color-500: #566573;
+    --color-600: #2c3e50;
+    --color-700: #273746;
+    --color-800: #212f3d;
+    --color-900: #1c2833;
+    --color-950: #17202a;
+
+    --color-main: #1abc9c;
+}
+
+/*Estilos iniaciales
+============================================*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    background-color: var(--color-100);
+    color: var(--color-950);
+}
+
+@media (min-width: 768px){
+    body{
+        font-size: 1.6rem;
+    }
+}
+h1, h2,h3{
+    font-weight: 700;
+}
+
+h4, h5,h6{
+    font-weight: 500;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+i{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-900);
+    font-weight: 500;
+}
+
+/*Utilidades
+============================================*/
+[class$="__container"]{
+    width: 100%;
+    max-width: 120rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+[class$="__title2"]{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+@media (min-width: 992px){
+    [class$="__title2"]{
+        font-size: 4.5rem;
+    }
+}
+
+[class$="__title2-color"]{
+    color: var(--color-main);
+}
+
+[class$="__desc1"]{
+    text-align: center;
+    color: var(--color-600);
+    padding: 0 1rem;
+}

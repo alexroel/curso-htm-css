@@ -1,0 +1,17 @@
+section{
+    background-color: aquamarine;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+}
+
+div{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+

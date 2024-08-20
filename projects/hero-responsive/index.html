@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero - Responsive</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <picture>
+            <source media="(min-width: 900px)" 
+            srcset="img/Prototype.avif 1x, img/Prototype.webp 1x, img/Prototype.png 1x" 
+            sizes="100vw">
+
+            <source srcset="img/Prototype-600.avif 1x, img/Prototype-600.webp 1x, img/Prototype-600.png 1x"
+            sizes="100vw">
+
+            <img src="img/Prototype-600.png" alt="Imagen de fondo">
+
+        </picture>
+
+        <nav class="navbar">
+            <a href="">Inicio</a>
+            <a href="">Blogs</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Manera fácil de obtener
+                    <span>Control Total</span> de su
+                    <span>Tarea</span>
+                </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus odit voluptas accusantium, quam omnis delectus quibusdam libero impedit tempora! Magnam, quis blanditiis quidem iure corrupti necessitatibus! Provident, qui quam!
+                </p>
+
+                <hr>
+
+                <div class="buttons">
+                    <a href="" class="btn-primary">Empezar</a>
+                    <a href="" class="btn-secondary">Aprende más</a>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
